@@ -1,0 +1,23 @@
+[
+  {
+    "id": 2,
+    "title": "Enjoy This Offer Today",
+    "subtitle": "New Collection <br>Sale 20%",
+    "image": "/assets/img/banner/j1.png",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 2,
+    "title": "Enjoy This Offer Today",
+    "subtitle": "New Collection <br>Sale 20%",
+    "image": "/assets/img/banner/j2.png",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 2,
+    "title": "Enjoy This Offer Today",
+    "subtitle": "New Collection <br>Sale 20%",
+    "image": "/assets/img/banner/k3.png",
+    "url": "/shop-grid-standard"
+  }
+]
