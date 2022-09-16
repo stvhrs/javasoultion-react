@@ -125,7 +125,7 @@ const HomeFashion = () => {
         <title>Java Solution</title>
         <meta
           name="description"
-          content="Fashion home of flone react minimalist eCommerce template."
+          content="Java Solution Bugs Spray"
         />
       </MetaTags>
       <LayoutOne

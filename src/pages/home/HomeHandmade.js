@@ -14,10 +14,10 @@ const HomeHandmade = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Handmade Home</title>
+        <title>Java Solution | Handmade Home</title>
         <meta
           name="description"
-          content="Handmade home of flone react minimalist eCommerce template."
+          content="Handmade home of Java Solution react minimalist eCommerce template."
         />
       </MetaTags>
       <LayoutOne headerTop="visible">

@@ -13,10 +13,10 @@ const HomeBookStoreTwo = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Book store Home</title>
+        <title>Java Solution | Book store Home</title>
         <meta
           name="description"
-          content="Book store home of flone react minimalist eCommerce template."
+          content="Book store home of Java Solution react minimalist eCommerce template."
         />
       </MetaTags>
       <LayoutOne headerTop="visible">

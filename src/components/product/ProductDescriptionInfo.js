@@ -176,7 +176,7 @@ const ProductDescriptionInfo = ({
           
               
                 {" "}
-                <a href={"https://wa.me/6281325076363?text=Hi%20JavaSolution%0ANama%3A%0AAlamat%3A%0AOrder%3A"+product.name} target="_blank" rel="noreferrer">
+                <a href={"https://wa.me/6281325076363?text=Hi%20JavaSolution%0ANama%3A%0AAlamat%3A%0AOrder%3A"+" "+product.name} target="_blank" rel="noreferrer">
          Pesan Whatsapp
         </a>
               

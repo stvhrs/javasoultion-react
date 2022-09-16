@@ -14,10 +14,10 @@ const HomeBlackFriday = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Black friday Home</title>
+        <title>Java Solution | Black friday Home</title>
         <meta
           name="description"
-          content="Black friday home of flone react minimalist eCommerce template."
+          content="Black friday home of Java Solution react minimalist eCommerce template."
         />
       </MetaTags>
       <LayoutTen>

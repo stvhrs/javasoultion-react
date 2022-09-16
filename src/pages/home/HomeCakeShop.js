@@ -12,10 +12,10 @@ const HomeCakeShop = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Cake shop Home</title>
+        <title>Java Solution | Cake shop Home</title>
         <meta
           name="description"
-          content="Cake shop home of flone react minimalist eCommerce template."
+          content="Cake shop home of Java Solution react minimalist eCommerce template."
         />
       </MetaTags>
       <LayoutOne headerTop="visible">

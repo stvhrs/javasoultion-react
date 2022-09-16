@@ -26,10 +26,10 @@ const HomeOnepageScroll = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Fashion Home</title>
+        <title>Java Solution | Fashion Home</title>
         <meta
           name="description"
-          content="Fashion home of flone react minimalist eCommerce template."
+          content="Fashion home of Java Solution react minimalist eCommerce template."
         />
       </MetaTags>
       <div className="fullpage-slider-wrapper">
@@ -45,7 +45,7 @@ const HomeOnepageScroll = () => {
             sliderData.map((single, key) => {
               return (
                 <Section key={key}>
-                  <div className="slider-section flone-fp-section">
+                  <div className="slider-section Java Solution-fp-section">
                     <div className="container">
                       <div className="row fullpage-slider-wrap-mrg">
                         <div className="col-lg-6 col-md-6 col-sm-6 col-12 d-flex align-items-center">
