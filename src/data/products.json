@@ -1,90 +1,144 @@
-[{
-
-
-  "id": "Bowan",
-  "sku": "asdf253",
-  "name": "Bowan",
-  "price": 4.5,
-  "discount": 0,
-  "new": false,
-  "rating": 3,
-  "saleCount": 20,
-  "category": ["christmas"],
-  "tag": ["christmas"],
-  "stock": 60,
-  "image": [
-    "/assets/img/product/Bowan1.png",
-    "/assets/img/product/Bowan2.png"
-   
-  ],
-  "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-  "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-},
-{
-
-
-  "id": "Rotten_Kecoa",
-  "sku": "asdf253",
-  "name": "Rotten Kecoa",
-  "price": 4.5,
-  "discount": 0,
-  "new": false,
-  "rating": 3,
-  "saleCount": 20,
-  "category": ["christmas"],
-  "tag": ["christmas"],
-  "stock": 60,
-  "image": [
-    "/assets/img/product/RottenKecoa1.png",
-    "/assets/img/product/RottenKecoa2.png",
-    "/assets/img/product/RottenKecoa3.png"
-   
-  ],
-  "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-  "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-}, {
-
-
-  "id": "Rotten_Kutu",
-  "sku": "asdf253",
-  "name": "Rotten Kutu",
-  "price": 4.5,
-  "discount": 0,
-  "new": false,
-  "rating": 3,
-  "saleCount": 20,
-  "category": ["christmas"],
-  "tag": ["christmas"],
-  "stock": 60,
-  "image": [
-    "/assets/img/product/RottenKutu1.png",
-    "/assets/img/product/RottenKutu2.png",
-    "/assets/img/product/RottenKutu3.png"
-
-  ],
-  "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-  "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-}, {
-
-
-  "id": "Rotten_Semut",
-  "sku": "asdf253",
-  "name": "Rotten Semut",
-  "price": 4.5,
-  "discount": 0,
-  "new": false,
-  "rating": 3,
-  "saleCount": 20,
-  "category": ["christmas"],
-  "tag": ["christmas"],
-  "stock": 60,
-  "image": [
-    "/assets/img/product/RottenSemut1.png",
-    "/assets/img/product/RottenSemut2.png",
-    "/assets/img/product/RottenSemut3.png"
-  
-  ],
-  "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-  "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-}
+[
+  {
+    "id": "Bowan",
+    "sku": "asdf253",
+    "name": "Bowan",
+    "price": 52500,
+    "discount": 0,
+    "new": false,
+    "rating": 3,
+    "saleCount": 20,
+    "category": [
+      "christmas"
+    ],
+    "tag": [
+      "christmas"
+    ],
+    "stock": 60,
+    "image": [
+      "/assets/img/product/Bowan1.png",
+      "/assets/img/product/Bowan2.png"
+    ],
+    "kerja": [
+      "-Berdaya kerja cepat dan sangat aktif;.",
+      "-Tingkat toksisitas rendah sehingga tidak berbahaya bagi manusia, hewan domestik dan tidak terakumulasi di lingkungan",
+      "-Tidak Berbahaya jika terjilat atau tercium hewan."
+    ],
+    "pakai": [
+      "Buka pengaman pada botol (kocok setiap sebelum pemakaian) lalu semprotkan Bowan secara merata ke badan hewan peliharaan, diamkan 1-2 jam untuk bahan aktif bekerja maksimal. Aplikasi diulang setiap 4-5 hari sekali. Sangat aman bila terjilat/termakan hewan lain."
+    ],
+    "catatan": [
+      "TIDAK WAJIB MANDI ",
+      "Hanya mandikan hewan peliharaan setelah selesai pengobatan,setelah aplikasi dilihat keesokannya jika sudah bersih dimandikan, jika belum bisa diulangi."
+    ],
+    "shortDescription": "Bowan merupakan pembasmi anti kutu dan tuma / caplak pada hewan peliharaan yang diformulasikan dari Bahan Aktif trichlorfon 97%. Bowan tidak beracun bagi manusia dan hewan peliharaan."
+  },
+  {
+    "id": "Rotten_Kecoa",
+    "sku": "asdf253",
+    "name": "Rotten Kecoa",
+    "price": 52500,
+    "discount": 0,
+    "new": false,
+    "rating": 3,
+    "saleCount": 20,
+    "category": [
+      "christmas"
+    ],
+    "tag": [
+      "christmas"
+    ],
+    "stock": 60,
+    "kerja": [],
+    "pakai": [
+      "1. Buka pengaman pada botol (kocok setiap sebelum pemakaian) ",
+      "2. Semprotkan tepat terkena target.",
+      " 3. Semprotkan hingga merata di setiap sudut ruangan yg sering di jumpai hama hama penggangu.",
+      "4. Hindarkan terkena makanan atau permukaan yang biasa terkena makanan",
+      " 5. Ulangi pemakaian hingga target hilang dan tidak bersarang dilingkungan anda "
+    ],
+    "catatan": [],
+    "image": [
+      "/assets/img/product/RottenKecoa1.png",
+      "/assets/img/product/RottenKecoa2.png",
+      "/assets/img/product/RottenKecoa3.png"
+    ],
+    "shortDescription": "Rotten Kecoa merupakan racun pengusir kecoa yang berkerumun di rumah anda. Dengan formula yang efektif dan sangat ampuh. Bahan yang digunakan juga tidak berbau.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "Rotten_Kutu",
+    "sku": "asdf253",
+    "name": "Rotten Kutu",
+    "price": 52500,
+    "discount": 0,
+    "new": false,
+    "rating": 3,
+    "saleCount": 20,
+    "category": [
+      "christmas"
+    ],
+    "tag": [
+      "christmas"
+    ],
+    "stock": 60,
+    "kerja": [
+      " - Bekerja secara cepat dan efektif ",
+      "- Aman dan mudah digunakan ",
+      "- Aman untuk hewan Peliharaan seperti Kucing & Anjing"
+    ],
+    "pakai": [
+      " 1. Buka pengaman pada botol (kocok setiap sebelum pemakaian)",
+      "    2. Semprotkan Spray Anti Kutu & Serangga secara merata hingga sedikit lembab ke kasur, furniture, lantai, tembok dan area-area yang terdapat jalur dan sarang serangga"
+    ],
+    "catatan": [
+      "Simpan ditempat yang Kering & tidak terkena matahari langsung.    "
+    ],
+    "image": [
+      "/assets/img/product/RottenKutu1.png",
+      "/assets/img/product/RottenKutu2.png",
+      "/assets/img/product/RottenKutu3.png"
+    ],
+    "shortDescription": "Rotten Kutu merupakan spray pembasmi segala jenis kutu dan serangga lainnya seperti tungau, kutu loncat, kutu busuk, kutu kasur, kecoa , dll ,bahkan bisa untuk membunuh bakteri. aman digunakan pada kasur serta furniture lainnya.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "Rotten_Semut",
+    "sku": "asdf253",
+    "name": "Rotten Semut",
+    "price": 52500,
+    "discount": 0,
+    "new": false,
+    "rating": 3,
+    "saleCount": 20,
+    "category": [
+      "christmas"
+    ],
+    "tag": [
+      "christmas"
+    ],
+    "stock": 60,
+    "image": [
+      "/assets/img/product/RottenSemut1.png",
+      "/assets/img/product/RottenSemut2.png",
+      "/assets/img/product/RottenSemut3.png"
+    ],
+    "kerja": [
+      "1. Dengan teknologi slow release, Rotten Semut membasmi Semut sampai dengan ke koloninya.",
+      "2. Rotten Semut memberikan hasil yang cepat tanpa meninggalkan bau.",
+      "3. Rotten Semut membasmi segala jenis Semut baik didalam maupun diluar ruangan"
+    ],
+    "pakai": [
+      " 1. Buka pengaman pada botol (kocok setiap sebelum pemakaian) ",
+      "2. Semprotkan Rotten Semut pada area yang dilalui semut atau area yang ingin dilindungi dari semut.",
+      "3. Untuk hasil yang maksimal semprotkan Rotten Semut secara merata di permukaan",
+      "4. Rotten Semut dapat digunakan di didalam atau di luar ruangan",
+      "5. Pastikan area yang disemprotkan kering dan bebas dari sapuan air",
+      "6. Hindarkan terkena makanan atau permukaan yang bias terkena makanan",
+      "7. Permukaan yang di semprot dapat digunakan kembali setelah kering."
+    ],
+    "catatan": [],
+    "shortDescription": "Rotten Semut merupakan produk Pembasmi Semut dengan formulasi dan bahan yang unik untuk membasmi semut dan mencegah datangnya kembali semut pada daerah yang telah disemprot.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  }
 ]

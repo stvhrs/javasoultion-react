@@ -121,15 +121,16 @@ const ProductGridSingle = ({
                   </button>
                 )}
               </div> */}
-              <div className="pro-same-action pro-quickview">
+              {/* <div className="pro-same-action pro-quickview">
                 <button onClick={() => setModalShow(true)} title="Quick View">
                   <i className="pe-7s-look" />
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="product-content text-center">
-            <h3>
+         
+            <h3 style={{ fontSize:'19px '}}>
               <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
                 {product.name}
               </Link>
@@ -141,6 +142,12 @@ const ProductGridSingle = ({
             ) : (
               ""
             )} */}
+
+            <div>
+
+            <h3 style = {{color: 'red', }}><s>Rp. 95.000</s></h3>
+            </div>
+           
             <div className="product-price">
               {discountedPrice !== null ? (
                 <Fragment>
@@ -150,7 +157,7 @@ const ProductGridSingle = ({
                   </span>
                 </Fragment>
               ) : (
-                <span>{currency.currencySymbol + finalProductPrice} </span>
+                <span>{'Rp. ' + '52.500'} </span>
               )}
             </div>
           </div>

@@ -42,24 +42,44 @@ const ProductDescriptionInfo = ({
 
   return (
     <div className="product-details-content ml-70">
-      <h2>{product.name}</h2>
+      <h1>{product.name}</h1>
       <div className="product-details-price">
         {discountedPrice !== null ? (
           <Fragment>
-            <span>{currency.currencySymbol + finalDiscountedPrice}</span>{" "}
+            <span>{'Rp. ' + finalDiscountedPrice}</span>{" "}
             <span className="old">
-              {currency.currencySymbol + finalProductPrice}
+              {'Rp. ' + '52.500'}
             </span>
           </Fragment>
         ) : (
-          <span>{currency.currencySymbol + finalProductPrice} </span>
+          <span style={{color:'brown'}}>{'Rp. ' + '52.500'} </span>
         )}
       </div>
-     
-   
+
+
       <div className="pro-details-list">
         <p>{product.shortDescription}</p>
+        <h4>Cara Kerja :</h4>
+
+        {product.kerja.map((single, key) => {
+          return (<p>{single}</p>)
+        })}
+        <h4>Cara Pakai :</h4>
+
+
+        {product.pakai.map((single, key) => {
+          return (<p>{single}</p>)
+        })}
+
+        <h4>Catatan :</h4>  {product.catatan.map((single, key) => {
+          return (<p>{single}</p>)
+        })}
       </div>
+
+
+
+
+
 
       {product.variation ? (
         <div className="pro-details-size-color">
@@ -99,29 +119,29 @@ const ProductDescriptionInfo = ({
                 product.variation.map(single => {
                   return single.color === selectedProductColor
                     ? single.size.map((singleSize, key) => {
-                        return (
-                          <label
-                            className={`pro-details-size-content--single`}
-                            key={key}
-                          >
-                            <input
-                              type="radio"
-                              value={singleSize.name}
-                              checked={
-                                singleSize.name === selectedProductSize
-                                  ? "checked"
-                                  : ""
-                              }
-                              onChange={() => {
-                                setSelectedProductSize(singleSize.name);
-                                setProductStock(singleSize.stock);
-                                setQuantityCount(1);
-                              }}
-                            />
-                            <span className="size-name">{singleSize.name}</span>
-                          </label>
-                        );
-                      })
+                      return (
+                        <label
+                          className={`pro-details-size-content--single`}
+                          key={key}
+                        >
+                          <input
+                            type="radio"
+                            value={singleSize.name}
+                            checked={
+                              singleSize.name === selectedProductSize
+                                ? "checked"
+                                : ""
+                            }
+                            onChange={() => {
+                              setSelectedProductSize(singleSize.name);
+                              setProductStock(singleSize.stock);
+                              setQuantityCount(1);
+                            }}
+                          />
+                          <span className="size-name">{singleSize.name}</span>
+                        </label>
+                      );
+                    })
                     : "";
                 })}
             </div>
@@ -173,14 +193,14 @@ const ProductDescriptionInfo = ({
             </button>
           </div> */}
           <div className="pro-details-cart btn-hover">
-          
-              
-                {" "}
-                <a href={"https://wa.me/6281325076363?text=Hi%20JavaSolution%0ANama%3A%0AAlamat%3A%0AOrder%3A"+" "+product.name} target="_blank" rel="noreferrer">
-         Pesan Whatsapp
-        </a>
-              
-            
+
+
+            {" "}
+            <a href={"https://wa.me/6281222250588?text=Hi%20JavaSolution%0ANama%3A%0AAlamat%3A%0AOrder%3A" + " " + product.name} target="_blank" rel="noreferrer">
+              Pesan Whatsapp
+            </a>
+
+
           </div>
           {/* <div className="pro-details-wishlist">
             <button
@@ -249,7 +269,7 @@ const ProductDescriptionInfo = ({
         ""
       )} */}
 
-      <div className="pro-details-social">
+      {/* <div className="pro-details-social">
         <ul>
           <li>
             <a href="//facebook.com">
@@ -277,7 +297,7 @@ const ProductDescriptionInfo = ({
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };

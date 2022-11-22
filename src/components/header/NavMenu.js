@@ -23,7 +23,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
               onMouseLeave={() => setFocus0(false)}
               className="hoverColor"
               style={{
-                color: isFocused0 ? "black" : '#916d07'
+                color: isFocused0  ? '#916d07': "black"
               }} to={process.env.PUBLIC_URL + "/"}>
               HOME</Link>
           </li>
@@ -32,7 +32,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
               onMouseLeave={() => setFocus1(false)}
               className="hoverColor"
               style={{
-                color: isFocused1 ? "black" : '#916d07'
+                color: isFocused1  ? '#916d07': "black"
               }}  to={process.env.PUBLIC_URL + "/about"}>
               TENTANG KAMI</Link>
           </li>
@@ -41,7 +41,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
               onMouseLeave={() => setFocus2(false)}
               className="hoverColor"
               style={{
-                color: isFocused2 ? "black" : '#916d07'
+                color: isFocused2  ? '#916d07': "black"
               }}  to={process.env.PUBLIC_URL + "/contact"}>
               LOKASI TOKO</Link>
           </li>
@@ -50,7 +50,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
               onMouseLeave={() => setFocus3(false)}
               className="hoverColor"
               style={{
-                color: isFocused3 ? "black" : '#916d07'
+                color: isFocused3  ? '#916d07': "black"
               }}  to={process.env.PUBLIC_URL + "/contact"}>
               CONTACT</Link>
           </li>

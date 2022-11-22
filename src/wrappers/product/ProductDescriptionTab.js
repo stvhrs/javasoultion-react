@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
   return (
     <div className={`description-review-area ${spaceBottomClass}`}>
-      <div className="container">
+      {/* <div className="container">
         <div className="description-review-wrapper">
           <Tab.Container defaultActiveKey="additionalInfo">
             <Nav variant="pills" className="description-review-topbar">
@@ -168,7 +168,7 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
             </Tab.Content>
           </Tab.Container>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -4,21 +4,21 @@ import { Link } from "react-router-dom";
 
 const BannerOneSingle = ({ data, spaceBottomClass }) => {
   return (
-    <div className="col-lg-4 col-md-4">
+    <div className="">
       <div
         className={`single-banner ${spaceBottomClass ? spaceBottomClass : ""}`}
       >
-        <Link to={process.env.PUBLIC_URL + data.link}>
+        <Link >
           <img src={process.env.PUBLIC_URL + data.image} alt="" />
         </Link>
         <div className="banner-content">
-          <h3>{data.title}</h3>
+          {/* <h3>{data.title}</h3>
           <h4>
             {data.subtitle} <span>{data.price}</span>
-          </h4>
-          <Link to={process.env.PUBLIC_URL + data.link}>
+          </h4> */}
+          {/* <Link to={process.env.PUBLIC_URL + data.link}>
             <i className="fa fa-long-arrow-right" />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

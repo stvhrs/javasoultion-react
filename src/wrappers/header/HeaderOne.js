@@ -56,7 +56,7 @@ const HeaderOne = ({
           scroll > headerTop ? "stick" : ""
         }`}
       > 
-        <div className={layout === "container-fluid" ? layout : "container"}>
+        <div className={ "container-fluid" }>
           <div className="row">
             <div className="col-xl-2 col-lg-2 col-md-6 col-4">
               {/* header logo */}

@@ -2,7 +2,18 @@
 
 /*  1. Template default CSS
 /*----------------------------------------*/
-
+@font-face {
+  font-family: 'Optimus';
+  src: url(../fonts/OptimusPrinceps.ttf);
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url(../fonts/GothamMedium_1.ttf);
+}
+@font-face {
+  font-family: 'GothamL';
+  src: url(../fonts/Gotham-Light.otf);
+}
 /*-- Google Font --*/
 
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500,600,700|Poppins:300,400,500,600,700,800,900|Josefin+Sans:wght@300;400;500;600;700|Abril+Fatface|Great+Vibe|Lobster&display=swap");

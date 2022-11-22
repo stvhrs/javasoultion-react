@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
+  
   return (
     <div
       className={`copyright ${spaceBottomClass ? spaceBottomClass : ""} ${
@@ -11,7 +12,7 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
     >
       <div className="footer-logo">
         <Link to={process.env.PUBLIC_URL + "/"}>
-          <img alt="" src={process.env.PUBLIC_URL + footerLogo} />
+          <img width={"150"} alt="" src={process.env.PUBLIC_URL + footerLogo} />
         </Link>
       </div>
       <p>
