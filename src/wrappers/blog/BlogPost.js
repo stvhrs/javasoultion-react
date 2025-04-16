@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 
+
+
 const BlogPost = () => {
   return (
     <Fragment>
@@ -10,6 +12,7 @@ const BlogPost = () => {
             alt=""
             src={process.env.PUBLIC_URL + "/assets/img/blog/blog-5.jpg"}
           />
+
         </div>
         <div className="blog-details-content">
           <div className="blog-meta-2">

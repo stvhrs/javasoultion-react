@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import ProductGrid from "./ProductGrid";

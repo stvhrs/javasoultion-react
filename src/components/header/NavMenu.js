@@ -1,7 +1,9 @@
 import PropTypes from "prop-types";
 
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+
 import { multilanguage } from "redux-multilanguage";
 
 const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {

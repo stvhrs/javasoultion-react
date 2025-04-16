@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+
 import LayoutThree from "../../layouts/LayoutThree";
 import NewsletterTwo from "../../wrappers/newsletter/NewsletterTwo";
 

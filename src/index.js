@@ -3,7 +3,7 @@ import "react-app-polyfill/stable";
 import React from "react";
 import ReactDOM from "react-dom";
 import { createStore, applyMiddleware } from "redux";
-import thunk from "redux-thunk";
+import thunk from 'redux-thunk';
 import { save, load } from "redux-localstorage-simple";
 import { Provider } from "react-redux";
 import { fetchProducts } from "./redux/actions/productActions";

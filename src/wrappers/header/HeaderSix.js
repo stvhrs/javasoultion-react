@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+
 import IconGroup from "../../components/header/IconGroup";
 import MobileMenu from "../../components/header/MobileMenu";
 import OffcanvasMenu from "../../components/header/OffcanvasMenu";

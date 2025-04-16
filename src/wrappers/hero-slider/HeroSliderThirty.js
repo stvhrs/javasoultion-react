@@ -1,6 +1,8 @@
 import React from "react";
 import sliderData from "../../data/hero-sliders/hero-slider-thirty.json";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+
 
 const HeroSliderThirty = () => {
   return (
